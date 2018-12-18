@@ -4,9 +4,26 @@ body {
 }
 
 main {
-  padding-left: 90px;
-  padding-right: 90px;
-  max-width: 1000px;
+  padding-left: 75px;
+  padding-right: 75px;
+  max-width: 1025px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.left, .right {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left {
+  float: left;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.right {
+  float: right;
+  margin-left: 25px;
+  display: inline-block;
 }
